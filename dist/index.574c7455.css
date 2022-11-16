@@ -1,9 +1,4 @@
-@font-face {
-  font-family: My font;
-  src: local(My font), url("Australia Custom.b865d6da.woff") format("woff"), url("Australia Custom.7d6e0d8a.woff2") format("woff2");
-}
-
-.container {
+.posit {
   height: 100vh;
   width: 100vw;
   justify-content: center;
@@ -11,24 +6,50 @@
   display: flex;
 }
 
-.container .box-i:nth-child(2n+1), .container .box-1 {
-  background-color: #9370db;
+.posit .fox {
+  width: 50%;
+  height: 50%;
+  border: 2px solid #000;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
 }
 
-.box {
-  width: 10px;
-  height: 100px;
-  border: 2px solid #00f;
-  font-family: Roboto, sans-serif;
+.posit .fox .element-1 {
+  background-color: #ff5733;
 }
 
-.box-i:nth-child(2n+1) {
-  background-color: #9370db;
+.posit .fox .element-2 {
+  background-color: #ffbd33;
 }
 
-.span {
-  color: #00f;
-  font-family: My font, sans-serif;
+.posit .fox .element-3 {
+  background-color: #dbff33;
+}
+
+.posit .fox .element-4 {
+  background-color: #75ff33;
+}
+
+.posit .fox .el {
+  border: 1px solid #00f;
+  flex: 400px;
+}
+
+.posit .fox .element-1 {
+  flex-grow: 6;
+}
+
+.posit .fox .element-2 {
+  flex-shrink: 2;
+}
+
+.posit .fox .element-3 {
+  flex-shrink: 4;
+}
+
+.posit .fox .element-4 {
+  flex-shrink: 8;
 }
 
 /*# sourceMappingURL=index.574c7455.css.map */

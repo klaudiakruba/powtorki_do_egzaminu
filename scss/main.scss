@@ -1,3 +1,5 @@
+@use 'sass:color';
+@use 'sass:list';
 ////@import '../partials/variables';
 //
 //@font-face {
@@ -57,15 +59,74 @@
 //
 //
 
+//
+//body {
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//  height: 100vh;
+//}
 
-body {
+//p {
+//  width: 100%;
+//  background-color: #fff;
+//  font-family: 'Roboto', sans-serif;
+//}
+
+
+.posit {
+  height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+
+
+  .fox {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 20px;
+    width: 50%; // też działa
+    //width: 500px;
+    height: 50%; // też działa
+    //height: 300px;
+
+    $color-list: #FF5733 #FFBD33 #DBFF33 #75FF33;
+    @for $i from 1 through 4 {
+      .element-#{$i} {
+        background-color: list.nth($color-list, $i);
+      }
+    }
+    .el {
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: 400px;
+      border: 1px solid blue;
+    }
+
+    .element-1 {
+      flex-grow: 6;
+    }
+
+    .element-2 {
+      flex-shrink: 2;
+    }
+
+    .element-3 {
+      flex-shrink: 4;
+    }
+
+    .element-4 {
+      flex-shrink: 8;
+    }
+
+  }
 }
 
-.box2 {
-  width: 100%;
-  background-color: #fff;
-}
+
+//  @mixin flex-set($flex-shrink, $flex-grow) {
+//  flex-shrink: $flex-shrink;
+//    flex-grow: $flex-grow;
+//    @content;
+//}
