@@ -1,0 +1,71 @@
+////@import '../partials/variables';
+//
+//@font-face {
+//  font-family: "My font";
+//  src: local("My font"),
+//  url("../australia_custom/Australia Custom.woff") format("woff"),
+//  url("../australia_custom/Australia Custom.woff2") format("woff2");
+//}
+//
+//
+////* {
+////  box-sizing: border-box;
+////  margin: 0;
+////  padding: 0;
+////}
+//
+//
+//.container {
+//  display: flex;
+//  justify-content: center;
+//  align-items: center;
+//  height: 100vh;
+//  width: 100vw;
+//
+//  //
+//  //@for $i from 1 through 10 {
+//  //  .box-#{i} {
+//  //    width: 100px;
+//  //    height: 100px;
+//  //    border: 1px solid blue;
+//  //  }
+//    .box-#{i}:nth-child(odd) {
+//      background-color: mediumpurple;
+//    }
+//  .box-1 {
+//    background-color: mediumpurple;
+//  }
+//  }
+//.box{
+//  width: 10px;
+//  height: 100px;
+//  border: 2px solid blue;
+//  font-family: $primary-font;
+//}
+//.box-#{i}:nth-child(odd) {
+//  background-color: mediumpurple;
+//}
+//
+//
+//
+//
+//
+//.span {
+//  font-family: "My font", sans-serif;
+//  color: blue;
+//}
+//
+//
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box2 {
+  width: 100%;
+  background-color: #fff;
+}
