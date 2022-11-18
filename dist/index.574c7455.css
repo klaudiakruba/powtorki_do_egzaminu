@@ -19,4 +19,146 @@
   display: inline-block;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container .row {
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.container .row [class*="col-"] {
+  min-height: 1px;
+  width: 8.33333%;
+  padding: 10px;
+}
+
+.container .row .col-1 {
+  width: 8.33333%;
+}
+
+.container .row .col-2 {
+  width: 16.6667%;
+}
+
+.container .row .col-3 {
+  width: 25%;
+}
+
+.container .row .col-4 {
+  width: 33.3333%;
+}
+
+.container .row .col-5 {
+  width: 41.6667%;
+}
+
+.container .row .col-6 {
+  width: 50%;
+}
+
+.container .row .col-7 {
+  width: 58.3333%;
+}
+
+.container .row .col-8 {
+  width: 66.6667%;
+}
+
+.container .row .col-9 {
+  width: 75%;
+}
+
+.container .row .col-10 {
+  width: 83.3333%;
+}
+
+.container .row .col-11 {
+  width: 91.6667%;
+}
+
+.container .row .col-12 {
+  width: 100%;
+}
+
+@media (max-width: 550px) {
+  .container .row [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.element-1 {
+  background-color: #ff5733;
+}
+
+.element-2 {
+  background-color: #ffbd33;
+}
+
+.element-3 {
+  background-color: #dbff33;
+}
+
+.element-4 {
+  background-color: #75ff33;
+}
+
+.element-5 {
+  background-color: #1e90ff;
+}
+
+.element-zag-1 {
+  background-color: #ffcdd5;
+}
+
+.element-zag-2 {
+  background-color: #ffd9e0;
+}
+
+.element-zag-3 {
+  background-color: #ffe6ea;
+}
+
+.element-zag-4 {
+  background-color: #fff2f5;
+}
+
+.header {
+  max-width: 100px;
+  color: #000;
+  cursor: pointer;
+  background-color: #1e90ff;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  display: flex;
+}
+
+.header:hover {
+  background-color: #ff5733;
+  transition: all .5s;
+}
+
+.list li:hover:after {
+  content: "tooltip";
+  opacity: .8;
+  color: #000;
+  width: 100px;
+  height: 15px;
+  background-color: pink;
+  border-radius: 5px;
+  padding: 5px 20px;
+  position: relative;
+  left: 10px;
+}
+
 /*# sourceMappingURL=index.574c7455.css.map */

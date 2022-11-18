@@ -171,25 +171,168 @@
 //  color: red;
 //}
 
-  .title {
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    //flex-grow: 1; //wowczas rozciagnie kreski na cala dlugosc bo rodzic nie ma nadanych wymiarow
+  }
+
+  strong {
+    color: mediumpurple;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    $columns: 12;
+    $column-base-width: 100% / $columns; //8,333%
+
+    [class*='col-'] {
+      min-height: 1px;
+      width: $column-base-width;
+      padding: 10px;
+    }
+
+    @for $i from 1 through $columns {
+      .col-#{$i} {
+        width: $column-base-width * $i;
+      }
+    }
+
+    @media (max-width: 550px) {
+      [class*='col-'] {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@for $i from 1 through 5 {
+  $colors: #FF5733 #FFBD33 #DBFF33 #75FF33 dodgerblue;
+
+  .element-#{$i} {
+    background-color: list.nth($colors, $i);
+
+  }
+}
+
+@for $i from 1 through 4 {
+  .element-zag-#{$i} {
+    background-color: color.scale(pink, $lightness: (20% * $i));
+  }
+}
+
+
+//
+//[class*=element-zag-] {
+//  background-color: #ffc6d0;
+//  border: 1px solid black;
+//}
+
+//@mixin headerFont($font) {
+//  font-size: $font;
+//  border-radius: 5px;
+//
+//}
+//
+//.header {
+//  @include headerFont(50px);
+//  border: 1px solid blue;
+//}
+//
+//@mixin dialogBox($backgroundColor, $width) {
+//  width: $width;
+//  padding: 10px;
+//  background: $backgroundColor;
+//  border: 1px solid black;
+//  margin: 40px auto;
+//  position: relative;
+//  &:after {
+//    content: "";
+//    width: 10px;
+//    height: 10px;
+//    background-color: $backgroundColor;
+//    border: 1px solid black;
+//    position: absolute;
+//    top: 2px;
+//    left: 50%;
+//    transform: rotate(45deg) translate(-50%, -50%);
+//  }
+//}
+//
+//.header {
+//  @include dialogBox(green, 300px);
+//  }
+
+
+@mixin disableHover() {
+
+  &:hover {
+    background-color: #FF5733;
+    transition: 0.5s;
+  }
+  @content;
+}
+
+.header {
+
+
+  @include disableHover() {
+    max-width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px 30px;
+    background-color: dodgerblue;
+    color: black;
+    cursor: pointer;
+  }
 
-    &::before,
-    &::after {
-      content: '';
-      display: block;
-      height: 2px;
+}
+
+
+@mixin setTooltip($string, $color) {
+    li:hover::after {
+      content: $string;
+      background-color: $color;
+      opacity: 0.8;
+      color: black;
+      padding: 5px 20px;
       width: 100px;
-      background-color: black;
-      //flex-grow: 1; //wowczas rozciagnie kreski na cala dlugosc bo rodzic nie ma nadanych wymiarow
-    }
+      height: 15px;
+      border-radius: 5px;
+      position: relative;
+      left: 10px;
 
-    strong {
-      color: mediumpurple;
-      font-size: 20px;
-      display: inline-block;
-      padding: 0 10px 0 10px;
     }
   }
+
+
+.list {
+  @include setTooltip("tooltip", pink);
+}
