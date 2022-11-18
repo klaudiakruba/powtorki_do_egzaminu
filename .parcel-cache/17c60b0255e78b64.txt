@@ -2,10 +2,10 @@
 62/home/klaudiakruba/Repositories/powtorka_do_egz1/.idea/vcs.xml1668632828273568577 0
 65/home/klaudiakruba/Repositories/powtorka_do_egz1/.idea/.gitignore1668536091167649707 0
 66/home/klaudiakruba/Repositories/powtorka_do_egz1/.idea/modules.xml1668536090883646804 0
-54/home/klaudiakruba/Repositories/powtorka_do_egz1/.idea1668636027479823614 1
+54/home/klaudiakruba/Repositories/powtorka_do_egz1/.idea1668764947761118249 1
 57/home/klaudiakruba/Repositories/powtorka_do_egz1/partials1668616755993565719 1
-72/home/klaudiakruba/Repositories/powtorka_do_egz1/dist/index.574c7455.css1668636027483823621 0
-82/home/klaudiakruba/Repositories/powtorka_do_egz1/dist/powtorka_do_egz1.3464ddca.js1668635983127744576 0
+72/home/klaudiakruba/Repositories/powtorka_do_egz1/dist/index.574c7455.css1668764933105086275 0
+82/home/klaudiakruba/Repositories/powtorka_do_egz1/dist/powtorka_do_egz1.3464ddca.js1668761901373782867 0
 85/home/klaudiakruba/Repositories/powtorka_do_egz1/dist/Australia Custom.7d6e0d8a.woff21668617680203034346 0
 84/home/klaudiakruba/Repositories/powtorka_do_egz1/dist/Australia Custom.b865d6da.woff1668617680203034346 0
 96/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/core/lib/Transformation.js1668540575370783945 0
@@ -288,7 +288,7 @@
 111/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/reporter-dev-server/src/ServerReporter.js1668540575166779967 0
 97/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/reporter-dev-server/LICENSE1668540574806772942 0
 95/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/config-default/index.json1668540574890774582 0
-59/home/klaudiakruba/Repositories/powtorka_do_egz1/index.html1668634276261730058 0
+59/home/klaudiakruba/Repositories/powtorka_do_egz1/index.html1668764787808749473 0
 97/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/config-default/package.json1668540574902774816 0
 104/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/config-default/test/config.test.js1668540574874774269 0
 84/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/config-default1668540574890774582 1
@@ -1504,7 +1504,7 @@
 93/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/caniuse-lite/data/regions/PA.js1668540575478786050 0
 173/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-package-redirect-down/foo/bar/baz/real-bar.js1668540575334783243 0
 93/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/caniuse-lite/data/regions/MQ.js1668540575470785895 0
-68/home/klaudiakruba/Repositories/powtorka_do_egz1/.idea/workspace.xml1668636027471823599 0
+68/home/klaudiakruba/Repositories/powtorka_do_egz1/.idea/workspace.xml1668764947757118241 0
 102/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/csso/lib/restructure/3-disjoinRuleset.js1668540574898774738 0
 109/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/lmdb.h1668540575342783398 0
 95/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/caniuse-lite/data/features/let.js1668540575454785582 0
@@ -1550,7 +1550,7 @@
 88/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/graph/src/Graph.js1668540575046777627 0
 93/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/caniuse-lite/data/regions/PR.js1668540575482786129 0
 110/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/caniuse-lite/data/features/css-matches-pseudo.js1668540575350783555 0
-64/home/klaudiakruba/Repositories/powtorka_do_egz1/dist/index.html1668635983107744541 0
+64/home/klaudiakruba/Repositories/powtorka_do_egz1/dist/index.html1668764787964749856 0
 114/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/caniuse-lite/data/features/keyboardevent-charcode.js1668540575450785504 0
 111/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/css-tree/lib/syntax/pseudo/common/selectorList.js1668540575334783243 0
 116/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/core/test/fixtures/targets-default-distdir-one1668540575402784569 1
@@ -1827,7 +1827,7 @@
 106/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/caniuse-lite/data/features/pagevisibility.js1668540575478786050 0
 81/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/logger/test1668540574906774894 1
 95/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/dom-serializer/lib/esm/index.d.ts1668540575046777627 0
-53/home/klaudiakruba/Repositories/powtorka_do_egz1/scss1668636027363823404 1
+53/home/klaudiakruba/Repositories/powtorka_do_egz1/scss1668764933017086082 1
 102/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/caniuse-lite/data/features/nav-timing.js1668540575474785972 0
 85/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/json5/dist/index.min.js1668540574978776300 0
 78/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/lmdb/src/env.cpp1668540575314782854 0
@@ -1964,7 +1964,7 @@
 96/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/core/lib/InternalConfig.js1668540575278782151 0
 104/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/utility-types/dist/functional-helpers.d.ts1668540575038777471 0
 96/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/core/src/RequestTracker.js1668540575346783477 0
-63/home/klaudiakruba/Repositories/powtorka_do_egz1/scss/main.scss1668636027359823396 0
+63/home/klaudiakruba/Repositories/powtorka_do_egz1/scss/main.scss1668764932989086020 0
 83/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/browserslist/error.js1668540574878774347 0
 103/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/caniuse-lite/data/features/mediasource.js1668540575466785817 0
 79/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/parcel/lib/cli.js1668540574922775207 0
@@ -2508,7 +2508,7 @@
 65/home/klaudiakruba/Repositories/powtorka_do_egz1/australia_custom1668617173350947877 1
 78/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/clone/.npmignore1668540574834773488 0
 116/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mtest_remap.c1668540575266781917 0
-48/home/klaudiakruba/Repositories/powtorka_do_egz11668634276273730102 1
+48/home/klaudiakruba/Repositories/powtorka_do_egz11668764787820749502 1
 110/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@swc/helpers/src/_apply_decorated_descriptor.mjs1668540575226781138 0
 96/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/htmlparser2/lib/Tokenizer.d.ts.map1668540575010776925 0
 107/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/posthtml/node_modules/posthtml-parser/license1668540574814773097 0
@@ -3378,7 +3378,7 @@
 96/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/node-addon-api/tools/conversion.js1668540575086778407 0
 94/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/core/test/Parcel.test.js1668540575318782930 0
 98/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/node-addon-api/tools/clang-format.js1668540575078778251 0
-86/home/klaudiakruba/Repositories/powtorka_do_egz1/dist/powtorka_do_egz1.3464ddca.js.map1668635983131744583 0
+86/home/klaudiakruba/Repositories/powtorka_do_egz1/dist/powtorka_do_egz1.3464ddca.js.map1668761901373782867 0
 92/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/node-addon-api/tools/README.md1668540575130779265 0
 97/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/node-addon-api/package-support.json1668540575094778564 0
 83/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/react-refresh/LICENSE1668540574806772942 0
@@ -3929,7 +3929,7 @@
 105/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@parcel/utils/test/input/config/config.json1668540575290782385 0
 87/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/@swc/helpers/lib/index.js1668540575222781059 0
 90/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/.bin/node-gyp-build-optional1668540575766791666 0
-53/home/klaudiakruba/Repositories/powtorka_do_egz1/dist1668636027483823621 1
+53/home/klaudiakruba/Repositories/powtorka_do_egz1/dist1668764933105086275 1
 109/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/caniuse-lite/data/features/keyboardevent-key.js1668540575450785504 0
 73/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/.bin/terser1668540575766791666 0
 72/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/.bin/json51668540575766791666 0
@@ -4259,7 +4259,7 @@
 119/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/node-releases/data/release-schedule/release-schedule.json1668540574966776066 0
 99/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/source-map/lib/source-map-consumer.js1668540575018777081 0
 72/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/acorn/dist1668540575114778954 1
-76/home/klaudiakruba/Repositories/powtorka_do_egz1/dist/index.574c7455.css.map1668636027483823621 0
+76/home/klaudiakruba/Repositories/powtorka_do_egz1/dist/index.574c7455.css.map1668764933105086275 0
 83/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/node-releases/LICENSE1668540574810773021 0
 85/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/node-releases/README.md1668540574978776300 0
 101/home/klaudiakruba/Repositories/powtorka_do_egz1/node_modules/lmdb/node_modules/node-addon-api/napi.h1668540575074778173 0
